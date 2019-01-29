@@ -21,3 +21,7 @@ comments:
 
 scopes:
   'top_level': 'source.rnc'
+  'comment': 'comment.line'
+  'identifier': 'constant'
+  'literal_segment': 'string'
+  'name_class': 'variable'
