@@ -1,0 +1,23 @@
+scopeName: 'source.rnc'
+
+fileTypes: ['rnc']
+
+name: 'RELAXNG compact' # Used by LSP, so "Bibtex" makes it easier to be compliant
+
+type: 'tree-sitter'
+
+parser: 'tree-sitter-relaxng-compact'
+
+folds: [
+  {
+    type: ['entry', 'preamble_command', 'string_command', 'comment_command']
+    start: {index: 0}
+    end: {index: -1}
+  }
+]
+
+comments:
+  start: '# '
+
+scopes:
+  'top_level': 'source.rnc'

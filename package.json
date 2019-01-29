@@ -1,0 +1,20 @@
+{
+  "name": "language-relaxng",
+  "version": "0.0.0",
+  "description": "Highlighting for RELAX NG",
+  "repository": "https://github.com/Aerijo/language-relaxng",
+  "bugs": "https://github.com/Aerijo/language-relaxng/issues",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "keywords": [
+    "relax",
+    "ng",
+    "syntax",
+    "highlighting",
+    "grammar"
+  ],
+  "dependencies": {
+    "tree-sitter-relaxng-compact": "latest"
+  }
+}
